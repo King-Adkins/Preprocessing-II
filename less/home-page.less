@@ -110,4 +110,44 @@
       }
     }
   }
+
+  input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;   
+    border: 1px solid @button-bg; 
+    border-radius: 10px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: white;
+    color: @button-bg;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  
+  input[type=submit]:hover {
+    background-color: black;
+    color: @button-bg;
+    
+  }
+
+  label {
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  
+  .form {
+    border-radius: 5px;
+    background-color: @button-bg;
+    padding: 20px;
+  }
+  
 }// home

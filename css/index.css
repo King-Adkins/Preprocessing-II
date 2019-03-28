@@ -350,3 +350,37 @@ img {
   background: #FFFFFF;
   color: #17A2B8;
 }
+.home input[type=text],
+.home select,
+.home textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #17A2B8;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.home input[type=submit] {
+  background-color: white;
+  color: #17A2B8;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+.home input[type=submit]:hover {
+  background-color: black;
+  color: #17A2B8;
+}
+.home label {
+  font-size: 1.5rem;
+  color: white;
+}
+.home .form {
+  border-radius: 5px;
+  background-color: #17A2B8;
+  padding: 20px;
+}
